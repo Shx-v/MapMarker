@@ -44,7 +44,7 @@ const LeafletMap = ({ pins, handleMapClick, selectedPin, setSelectedPin }) => {
     <MapContainer
       center={[20.5937, 78.9629]}
       zoom={6}
-      style={{ height: "91vh", width: "100%" }}
+      style={{ height: "91dvh", width: "100%" }}
       //   whenCreated={(mapInstance) => (mapRef.current = mapInstance)}
       ref={mapRef}
     >
